@@ -9,11 +9,12 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (_, res) => {
   res.send(
     `
-    <h1>End points: </h1>
+    <h1 >End points  </h1>
     <h3>/movies<h3>
     <h3>/users<h3>
     <h3>/comments<h3>
     <h3>/theaters<h3>
+    <button>teste</button>
     `
   )
 })
