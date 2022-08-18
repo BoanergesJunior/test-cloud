@@ -13,15 +13,16 @@ app.get('/', (_, res) => {
     <h2>Computação em Nuvem - UFLA </h2>
 
     <h3>Integrantes:</h3>
-    Boanerges Potyguara Saez Junior
+    Boanerges Potyguara Saez Junior<br>
     Walisson Mendes Ferreira
 
 <br>
     <h1 >End points disponíveis</h1>
-    <button link="https://test-cloud-ufla.herokuapp.com/movies"><h3>/movies<h3></button>
-    <button link="https://test-cloud-ufla.herokuapp.com/users"><h3>/users<h3></button>
-    <button link="https://test-cloud-ufla.herokuapp.com/comments"><h3>/comments<h3></button>
-    <button link="https://test-cloud-ufla.herokuapp.com/theaters"><h3>/theaters<h3></button>
+  
+    <button onclick="https://test-cloud-ufla.herokuapp.com/movies" type="button"><h3>/movies<h3></button>
+    <button onclick="https://test-cloud-ufla.herokuapp.com/users" type="button"><h3>/users<h3></button>
+    <button onclick="https://test-cloud-ufla.herokuapp.com/comments" type="button"><h3>/comments<h3></button>
+    <button onclick="https://test-cloud-ufla.herokuapp.com/theaters" type="button"><h3>/theaters<h3></button>
     
     `
   )
