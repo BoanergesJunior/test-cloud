@@ -9,12 +9,20 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (_, res) => {
   res.send(
     `
-    <h1 >End points  </h1>
-    <h3>/movies<h3>
-    <h3>/users<h3>
-    <h3>/comments<h3>
-    <h3>/theaters<h3>
-    <button>teste</button>
+    <h1>Implementação de sistema web em nuvem</h1>
+    <h2>Computação em Nuvem - UFLA </h2>
+
+    <h3>Integrantes:</h3>
+    Boanerges Potyguara Saez Junior
+    Walisson Mendes Ferreira
+
+<br>
+    <h1 >End points disponíveis</h1>
+    <button link="https://test-cloud-ufla.herokuapp.com/movies"><h3>/movies<h3></button>
+    <button link="https://test-cloud-ufla.herokuapp.com/users"><h3>/users<h3></button>
+    <button link="https://test-cloud-ufla.herokuapp.com/comments"><h3>/comments<h3></button>
+    <button link="https://test-cloud-ufla.herokuapp.com/theaters"><h3>/theaters<h3></button>
+    
     `
   )
 })
