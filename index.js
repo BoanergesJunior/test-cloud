@@ -18,11 +18,10 @@ app.get('/', (_, res) => {
 
 <br>
     <h1 >End points disponíveis</h1>
-  
-    <button href="https://test-cloud-ufla.herokuapp.com/movies"><h3>/movies<h3></button>
-    <button href="https://test-cloud-ufla.herokuapp.com/users"><h3>/users<h3></button>
-    <button href="https://test-cloud-ufla.herokuapp.com/comments"><h3>/comments<h3></button>
-    <button href="https://test-cloud-ufla.herokuapp.com/theaters"><h3>/theaters<h3></button>
+    <button onclick="window.location.href = 'https://test-cloud-ufla.herokuapp.com/movies'"><h3>/movies<h3></button>
+    <button onclick="window.location.href = 'https://test-cloud-ufla.herokuapp.com/users'"><h3>/users<h3></button>
+    <button onclick="window.location.href = 'https://test-cloud-ufla.herokuapp.com/comments'"><h3>/comments<h3></button>
+    <button onclick="window.location.href = 'https://test-cloud-ufla.herokuapp.com/theaters'"><h3>/theaters<h3></button>
     
     `
   )
