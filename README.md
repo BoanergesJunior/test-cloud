@@ -1,10 +1,11 @@
 # Implantação de Sistema Web em Nuvem
 ## Universidade Federal de Lavras
-### Departamento de Ciência da Computação
-### Computação em Nuvem - GCC180
-
+``` 
+    Departamento de Ciência da Computação
+    Computação em Nuvem - GCC180
+```
 ### Integrantes
-Boanerges Potyguara Saez Junior
+Boanerges Potyguara Saez Junior <br>
 Walisson Mendes Ferreira
 
 
